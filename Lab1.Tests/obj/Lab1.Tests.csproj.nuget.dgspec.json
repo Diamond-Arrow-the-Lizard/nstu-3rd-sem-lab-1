@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/Lab1.Tests/Lab1.Tests.csproj": {}
+    "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/nstu-3rd-sem-lab-1/Lab1.Tests/Lab1.Tests.csproj": {}
   },
   "projects": {
-    "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/Lab1.Tests/Lab1.Tests.csproj": {
+    "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/nstu-3rd-sem-lab-1/Lab1.Tests/Lab1.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/Lab1.Tests/Lab1.Tests.csproj",
+        "projectUniqueName": "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/nstu-3rd-sem-lab-1/Lab1.Tests/Lab1.Tests.csproj",
         "projectName": "Lab1.Tests",
-        "projectPath": "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/Lab1.Tests/Lab1.Tests.csproj",
+        "projectPath": "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/nstu-3rd-sem-lab-1/Lab1.Tests/Lab1.Tests.csproj",
         "packagesPath": "/home/d-arrow/.nuget/packages/",
-        "outputPath": "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/Lab1.Tests/obj/",
+        "outputPath": "/home/d-arrow/programming/Csh_3rd_Sem/Lab_1/nstu-3rd-sem-lab-1/Lab1.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/d-arrow/.nuget/NuGet/NuGet.Config"
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
