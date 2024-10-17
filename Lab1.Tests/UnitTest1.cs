@@ -65,7 +65,7 @@ namespace Lab1.Tests {
         [InlineData("", "", (float)-1*Int32.MaxValue)]
         [InlineData(null, null, (float)Int32.MaxValue)]
         [InlineData("\n", "\n", 0.0)]
-        public void Create_MobileDevice_Should_Succeed(string? newModel, string? newColor, float newPrice) {
+        public void CreatingMobileDevice_Should_Succeed(string? newModel, string? newColor, float newPrice) {
             
             var newDevice = new MobileDevices() {
                 Model = newModel,
@@ -80,7 +80,7 @@ namespace Lab1.Tests {
         [InlineData("", "", (float)-1*Int32.MaxValue, "")]
         [InlineData(null, null, (float)Int32.MaxValue, null)]
         [InlineData("\n", "\n", 0.0, "\n")]
-        public void Create_Smartphone_Should_Succeed(string? newModel, string? newColor, float newPrice, string? newFirm) {
+        public void CreatingSmartphone_Should_Succeed(string? newModel, string? newColor, float newPrice, string? newFirm) {
             
             var newPhone = new Smartphone() {
                 Model = newModel,
@@ -96,7 +96,7 @@ namespace Lab1.Tests {
         [InlineData("", "", (float)-1*Int32.MaxValue, -1*Int32.MaxValue, false)]
         [InlineData(null, null, (float)Int32.MaxValue, Int32.MaxValue, true)]
         [InlineData("\n", "\n", 0.0, 0, false)]
-        public void Create_Ebook_Should_Succeed(string? newModel, string? newColor, float newPrice, int newValue, bool newBacklight) {
+        public void CreatingEbook_Should_Succeed(string? newModel, string? newColor, float newPrice, int newValue, bool newBacklight) {
             
             var newEbook = new ElectronicBook() {
                 Model = newModel,
@@ -107,6 +107,19 @@ namespace Lab1.Tests {
             };
 
             return; 
+        }
+
+        [Fact]
+        public void AddingToList_Should_Succeed() {
+
+            List<MobileDevices> DevList = new List<MobileDevices>();
+            MobileDevices Device = new MobileDevices();
+            Smartphone Phone = new Smartphone();
+            ElectronicBook Ebook = new ElectronicBook();
+
+            DevList.Add(Device);
+            DevList.Add(Phone);
+            DevList.Add(Ebook);
         }
 
     }
