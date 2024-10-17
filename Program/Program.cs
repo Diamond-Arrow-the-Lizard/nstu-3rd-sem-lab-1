@@ -2,7 +2,7 @@
 
 namespace Devices {
 
-    class MobileDevices {
+    public class MobileDevices {
 
         public string? Model {set; get; } = "";
         public string? Color {set; get; } = "";
@@ -16,7 +16,7 @@ namespace Devices {
 
     }
 
-    class Smartphone : MobileDevices {
+    public class Smartphone : MobileDevices {
 
         public string? Firm {set; get; } = "";
         public override void Print() {
@@ -27,7 +27,7 @@ namespace Devices {
 
     }
 
-    class ElectronicBook : MobileDevices {
+    public class ElectronicBook : MobileDevices {
 
         public int Value {set; get; }
 
@@ -42,6 +42,7 @@ namespace Devices {
     }
 
     class Program {
+
 
         public static void UI() {
 
